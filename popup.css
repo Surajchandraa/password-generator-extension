@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Password section styles */
+  .password-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Password display styles */
+  .generated-password {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Copy button styles */
+  .copy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Options section styles */
+  .options-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  /* Option styles */
+  .option {
+    margin-bottom: 10px;
+  }
+  
+  /* Label styles */
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  input[type="range"],
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+
+  .change-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .change-button:hover {
+    background-color: #0056b3;
+  }
+
+  .password-actions{
+    margin-top: 5px;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>  
+    <!-- Password Display and Copy Button Section -->
+    <div class="password-section">
+        <div class="password-display">
+            <span class="generated-password"></span>
+        </div>
+        <div class="password-actions">
+            <button class="copy-button">Copy</button>
+            <button class="change-button">Change</button>
+        </div>
+    </div>
+
+    <!-- Password Generation Options Section -->
+    <div class="options-section">
+        <div class="option">
+            <label for="pass-length">Password Length:</label>
+        <input type="range" id="pass-length" name="pass-length" min="8" max="20" step="1" value="12">
+        <span id="password-length"></span> 
+        </div>
+        <div class="option">
+            <label for="special-char">Include Special Characters:</label>
+            <input type="checkbox" id="special-char" name="special-char">
+        </div>
+        <div class="option">
+            <label for="mix-capital">Mix Capitalization:</label>
+            <input type="checkbox" id="mix-capital" name="mix-capital">
+        </div>
+        <div class="option">
+            <label for="mix-numbers">Mix numbers:</label>
+            <input type="checkbox" id="mix-numbers" name="mix-numbers">
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
